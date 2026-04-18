@@ -1,0 +1,13 @@
+# python
+__pycache__/
+*.pyc
+
+# env
+.env
+
+# temp
+*.log
+*.tmp
+
+# OS
+.DS_Store
