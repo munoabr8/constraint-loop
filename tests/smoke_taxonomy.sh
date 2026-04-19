@@ -41,7 +41,7 @@ out="$(
 )"
 
 echo "$out"
-
+assert_contains '"action": "repair_wrapper"' "$out" "known deterministic"
 assert_contains '"code": "WRAPPER_MISSING_PLAYER"' "$out" "known deterministic"
 assert_contains '"classification": "known_deterministic"' "$out" "known deterministic"
 

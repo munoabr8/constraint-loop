@@ -13,8 +13,12 @@ test-taxonomy:
 test-orchestrator:
 	./tests/test_run_constraint_loop.sh
 
+test-orchestrator-blocking:
+	./tests/test_run_constraint_loop_blocking.sh
+
 test:
 	$(MAKE) test-smoke
 	$(MAKE) test-contracts
 	$(MAKE) test-taxonomy
 	$(MAKE) test-orchestrator
+	$(MAKE) test-orchestrator-blocking
