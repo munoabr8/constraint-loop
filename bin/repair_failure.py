@@ -7,7 +7,11 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
 from failure_codes import FailureCode
 
- 
+
+JS_TAG = "<script src='./asciinema-player.min.js'></script>"
+CSS_TAG = "<link rel='stylesheet' href='./asciinema-player.min.css'>"
+
+
 def repair_missing_player(wrapper: Path) -> bool:
     text = wrapper.read_text(encoding="utf-8", errors="ignore")
     updated = text
@@ -25,6 +29,69 @@ def repair_missing_player(wrapper: Path) -> bool:
         wrapper.write_text(updated, encoding="utf-8")
 
     return changed
+
+
+def repair_missing_cast_ref(wrapper: Path, expected: str) -> bool:
+    text = wrapper.read_text(encoding="utf-8", errors="ignore")
+    updated = text
+
+    if expected in updated:
+        return False
+
+    # Common malformed forms to normalize
+    replacements = [
+        ("src=\"run.cast\"", expected),
+        ("src='run.cast'", expected),
+        ("src=\"./run.cast\"", expected),
+        ("src=\"./" + wrapper.with_suffix("").name + ".cast\"", expected),
+        ("src='" + wrapper.with_suffix("").name + ".cast'", expected),
+    ]
+
+    changed = False
+    for old, new in replacements:
+        if old in updated:
+            updated = updated.replace(old, new)
+            changed = True
+
+    if changed:
+        wrapper.write_text(updated, encoding="utf-8")
+
+    return changed
+
+
+def repair_missing_js(wrapper: Path) -> bool:
+    text = wrapper.read_text(encoding="utf-8", errors="ignore")
+
+    if JS_TAG in text:
+        return False
+
+    updated = text
+
+    if "</head>" in updated:
+        updated = updated.replace("</head>", f"  {JS_TAG}\n</head>", 1)
+    else:
+        updated = f"{JS_TAG}\n{updated}"
+
+    wrapper.write_text(updated, encoding="utf-8")
+    return True
+
+
+def repair_missing_css(wrapper: Path) -> bool:
+    text = wrapper.read_text(encoding="utf-8", errors="ignore")
+
+    if CSS_TAG in text:
+        return False
+
+    updated = text
+
+    if "</head>" in updated:
+        updated = updated.replace("</head>", f"  {CSS_TAG}\n</head>", 1)
+    else:
+        updated = f"{CSS_TAG}\n{updated}"
+
+    wrapper.write_text(updated, encoding="utf-8")
+    return True
+
 
 def repair_classification(item: dict) -> dict:
     known = item.get("known", False)
@@ -71,7 +138,42 @@ def repair_classification(item: dict) -> dict:
                 return result
 
             result["repaired"] = True
-            result["reason"] = f"Repaired {wrapper}"
+            result["reason"] = f"Repaired missing player in {wrapper}"
+            return result
+
+        case FailureCode.WRAPPER_MISSING_CAST_REF:
+            expected = details.get("expected")
+            if not expected:
+                result["reason"] = "Missing expected cast ref in details.expected"
+                return result
+
+            changed = repair_missing_cast_ref(wrapper, expected)
+            if not changed:
+                result["reason"] = "No repair performed"
+                return result
+
+            result["repaired"] = True
+            result["reason"] = f"Repaired cast ref in {wrapper}"
+            return result
+
+        case FailureCode.WRAPPER_MISSING_JS:
+            changed = repair_missing_js(wrapper)
+            if not changed:
+                result["reason"] = "No repair performed"
+                return result
+
+            result["repaired"] = True
+            result["reason"] = f"Inserted JS tag in {wrapper}"
+            return result
+
+        case FailureCode.WRAPPER_MISSING_CSS:
+            changed = repair_missing_css(wrapper)
+            if not changed:
+                result["reason"] = "No repair performed"
+                return result
+
+            result["repaired"] = True
+            result["reason"] = f"Inserted CSS tag in {wrapper}"
             return result
 
         case _:

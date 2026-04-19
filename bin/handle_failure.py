@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import json
-import subprocess
 import sys
 
 
@@ -54,12 +53,17 @@ def main() -> int:
         item for item in classifications
         if item.get("classification") == "unknown"
     ]
+    deterministic = [
+        item for item in classifications
+        if item.get("classification") == "known_deterministic"
+    ]
 
     print(json.dumps({
         "status": "received",
         "actions": actions,
         "blocking_count": len(blocking),
         "unknown_count": len(unknowns),
+        "deterministic_count": len(deterministic),
     }, indent=2), file=sys.stderr)
 
     if blocking:
@@ -88,37 +92,18 @@ def main() -> int:
         print(json.dumps(outcome, indent=2))
         return 1
 
-    if "regenerate_wrappers" in actions:
-        result = subprocess.run(
-            [
-                "python3",
-                "../evidenceKit/evidence-kit/bin/gen-index.py",
-                "--art-dir",
-                "evidenceKit/evidence-kit/artifacts",
-            ],
-            capture_output=True,
-            text=True,
-        )
-
-        action_result = {
-            "action": "regenerate_wrappers",
-            "returncode": result.returncode,
-            "stdout": result.stdout,
-            "stderr": result.stderr,
-        }
-
+    if deterministic:
         outcome = build_outcome(
             input_status=input_status,
             actions=actions,
             blocking_failures=blocking,
             unknown_failures=unknowns,
-            repaired_any=(result.returncode == 0),
-            final_decision="repair_attempted",
-            reason="Executed deterministic action regenerate_wrappers",
-            action_result=action_result,
+            repaired_any=False,
+            final_decision="repair_required",
+            reason="Deterministic repair required",
         )
         print(json.dumps(outcome, indent=2))
-        return result.returncode
+        return 0
 
     outcome = build_outcome(
         input_status=input_status,

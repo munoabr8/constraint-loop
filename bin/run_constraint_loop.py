@@ -20,7 +20,7 @@ def utc_timestamp() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H-%M-%SZ")
 
 
-def run_python_json(script: Path, stdin_text: str | None = None, args: list[str] | None = None) -> tuple[int, str, str, dict | None]:
+def run_python_json(script: Path, stdin_text=None, args=None):
     cmd = ["python3", str(script)]
     if args:
         cmd.extend(args)
@@ -34,13 +34,11 @@ def run_python_json(script: Path, stdin_text: str | None = None, args: list[str]
     )
 
     parsed = None
-    stdout_text = result.stdout.strip()
-
-    if stdout_text:
+    if result.stdout.strip():
         try:
-            parsed = json.loads(stdout_text)
+            parsed = json.loads(result.stdout)
         except json.JSONDecodeError:
-            parsed = None
+            pass
 
     return result.returncode, result.stdout, result.stderr, parsed
 
@@ -54,7 +52,7 @@ def write_run_artifact(payload: dict) -> Path:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("artifacts_dir", help="Path to artifacts directory to validate")
+    parser.add_argument("artifacts_dir")
     args = parser.parse_args()
 
     artifacts_dir = str(Path(args.artifacts_dir).resolve())
@@ -72,148 +70,127 @@ def main() -> int:
         "repaired_any": False,
     }
 
-    # 1. Check
-    check_rc, check_stdout, check_stderr, check_json = run_python_json(
+    # --- 1. CHECK ---
+    rc, out, err, parsed = run_python_json(
         CHECKER,
         args=["--artifacts", artifacts_dir],
     )
 
     run_record["check_output"] = {
-        "returncode": check_rc,
-        "stdout": check_stdout,
-        "stderr": check_stderr,
-        "parsed": check_json,
+        "returncode": rc,
+        "stdout": out,
+        "stderr": err,
+        "parsed": parsed,
     }
 
-    if check_json is None:
+    if parsed is None:
         run_record["final_status"] = "error"
-        run_record["final_decision"] = "checker_output_unparseable"
+        run_record["final_decision"] = "checker_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({
-            "status": "error",
-            "reason": "Checker output was not valid JSON",
-            "run_artifact": str(artifact),
-        }, indent=2))
+        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
         return 1
 
-    if check_json.get("status") == "pass":
+    if parsed.get("status") == "pass":
         run_record["final_status"] = "complete"
         run_record["final_decision"] = "already_valid"
         artifact = write_run_artifact(run_record)
         print(json.dumps({
             "status": "complete",
             "final_decision": "already_valid",
-            "repaired_any": False,
-            "run_artifact": str(artifact),
+            "run_artifact": str(artifact)
         }, indent=2))
         return 0
 
-    # 2. Classify
-    classify_rc, classify_stdout, classify_stderr, classify_json = run_python_json(
+    # --- 2. CLASSIFY ---
+    rc, out, err, parsed = run_python_json(
         CLASSIFIER,
-        stdin_text=json.dumps(check_json),
+        stdin_text=json.dumps(parsed),
     )
 
     run_record["classification_output"] = {
-        "returncode": classify_rc,
-        "stdout": classify_stdout,
-        "stderr": classify_stderr,
-        "parsed": classify_json,
+        "returncode": rc,
+        "stdout": out,
+        "stderr": err,
+        "parsed": parsed,
     }
 
-    if classify_json is None:
+    if parsed is None:
         run_record["final_status"] = "error"
-        run_record["final_decision"] = "classifier_output_unparseable"
+        run_record["final_decision"] = "classifier_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({
-            "status": "error",
-            "reason": "Classifier output was not valid JSON",
-            "run_artifact": str(artifact),
-        }, indent=2))
+        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
         return 1
 
-    # 3. Handle
-    handle_rc, handle_stdout, handle_stderr, handle_json = run_python_json(
+    # --- 3. HANDLE (DECISION ONLY) ---
+    rc, out, err, parsed = run_python_json(
         HANDLER,
-        stdin_text=json.dumps(classify_json),
+        stdin_text=json.dumps(parsed),
     )
 
     run_record["handler_output"] = {
-        "returncode": handle_rc,
-        "stdout": handle_stdout,
-        "stderr": handle_stderr,
-        "parsed": handle_json,
+        "returncode": rc,
+        "stdout": out,
+        "stderr": err,
+        "parsed": parsed,
     }
 
-    if handle_json is None:
+    if parsed is None:
         run_record["final_status"] = "error"
-        run_record["final_decision"] = "handler_output_unparseable"
+        run_record["final_decision"] = "handler_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({
-            "status": "error",
-            "reason": "Handler output was not valid JSON",
-            "run_artifact": str(artifact),
-        }, indent=2))
+        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
         return 1
 
-    final_decision = handle_json.get("final_decision")
-    run_record["final_decision"] = final_decision
+    decision = parsed.get("final_decision")
+    run_record["final_decision"] = decision
 
-    # 4. Stop on halt/escalate
-    if final_decision in {"halt", "escalate"}:
+    # --- HALT / ESCALATE ---
+    if decision in {"halt", "escalate"}:
         run_record["final_status"] = "complete"
         artifact = write_run_artifact(run_record)
         print(json.dumps({
             "status": "complete",
-            "final_decision": final_decision,
-            "repaired_any": False,
-            "run_artifact": str(artifact),
+            "final_decision": decision,
+            "run_artifact": str(artifact)
         }, indent=2))
         return 1
 
-    # 5. Optional repair path:
-    # If the classifier found known deterministic failures, run repair_failure.py directly.
-    classifications = classify_json.get("classifications", [])
-    deterministic = [
-        item for item in classifications
-        if item.get("classification") == "known_deterministic"
-    ]
-
-    if deterministic:
+    # --- REPAIR REQUIRED ---
+    if decision == "repair_required":
         repair_payload = {
-            "status": classify_json.get("status"),
-            "classifications": deterministic,
+            "status": "fail",
+            "classifications": run_record["classification_output"]["parsed"]["classifications"],
         }
 
-        repair_rc, repair_stdout, repair_stderr, repair_json = run_python_json(
+        rc, out, err, parsed = run_python_json(
             REPAIRER,
             stdin_text=json.dumps(repair_payload),
         )
 
         run_record["repair_output"] = {
-            "returncode": repair_rc,
-            "stdout": repair_stdout,
-            "stderr": repair_stderr,
-            "parsed": repair_json,
+            "returncode": rc,
+            "stdout": out,
+            "stderr": err,
+            "parsed": parsed,
         }
 
-        if repair_json is not None:
-            run_record["repaired_any"] = repair_json.get("repaired_any", False)
+        if parsed:
+            run_record["repaired_any"] = parsed.get("repaired_any", False)
 
-        # 6. Re-check after repair attempt
-        recheck_rc, recheck_stdout, recheck_stderr, recheck_json = run_python_json(
+        # --- RE-CHECK ---
+        rc, out, err, parsed = run_python_json(
             CHECKER,
             args=["--artifacts", artifacts_dir],
         )
 
         run_record["recheck_output"] = {
-            "returncode": recheck_rc,
-            "stdout": recheck_stdout,
-            "stderr": recheck_stderr,
-            "parsed": recheck_json,
+            "returncode": rc,
+            "stdout": out,
+            "stderr": err,
+            "parsed": parsed,
         }
 
-        if recheck_json is not None and recheck_json.get("status") == "pass":
+        if parsed and parsed.get("status") == "pass":
             run_record["final_status"] = "complete"
             run_record["final_decision"] = "recovered"
             artifact = write_run_artifact(run_record)
@@ -221,7 +198,7 @@ def main() -> int:
                 "status": "complete",
                 "final_decision": "recovered",
                 "repaired_any": run_record["repaired_any"],
-                "run_artifact": str(artifact),
+                "run_artifact": str(artifact)
             }, indent=2))
             return 0
 
@@ -232,19 +209,18 @@ def main() -> int:
             "status": "complete",
             "final_decision": "repair_failed",
             "repaired_any": run_record["repaired_any"],
-            "run_artifact": str(artifact),
+            "run_artifact": str(artifact)
         }, indent=2))
         return 1
 
-    # 7. No deterministic repair path
+    # --- FALLBACK ---
     run_record["final_status"] = "complete"
     run_record["final_decision"] = "no_repair_path"
     artifact = write_run_artifact(run_record)
     print(json.dumps({
         "status": "complete",
         "final_decision": "no_repair_path",
-        "repaired_any": False,
-        "run_artifact": str(artifact),
+        "run_artifact": str(artifact)
     }, indent=2))
     return 0
 
