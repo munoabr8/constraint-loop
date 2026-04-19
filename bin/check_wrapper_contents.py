@@ -33,6 +33,10 @@ def wrapper_has_player(content: str) -> bool:
     return "<asciinema-player" in content
 
 
+def wrapper_player_count(content: str) -> int:
+    return content.count("<asciinema-player")
+
+
 def wrapper_has_local_or_cdn_js(content: str) -> bool:
     return (
         "<script src='./asciinema-player.min.js'></script>" in content
@@ -72,13 +76,27 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
             )
         )
 
-    if not wrapper_has_player(content):
+    player_count = wrapper_player_count(content)
+
+    if player_count == 0:
         violations.append(
             make_violation(
                 code=FailureCode.WRAPPER_MISSING_PLAYER,
                 entity="Wrapper",
                 entity_id=wrapper.name,
                 details=base_details,
+            )
+        )
+    elif player_count > 1:
+        violations.append(
+            make_violation(
+                code=FailureCode.WRAPPER_DUPLICATE_PLAYER_BLOCK,
+                entity="Wrapper",
+                entity_id=wrapper.name,
+                details={
+                    **base_details,
+                    "player_count": str(player_count),
+                },
             )
         )
 

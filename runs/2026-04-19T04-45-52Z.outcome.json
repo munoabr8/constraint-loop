@@ -1,0 +1,20 @@
+{
+  "started_at": "2026-04-19T04:45:52.383759+00:00",
+  "artifacts_dir": "/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.bwMgaQ7L",
+  "check_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"violations\": []\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "pass",
+      "violations": []
+    }
+  },
+  "classification_output": null,
+  "handler_output": null,
+  "repair_output": null,
+  "recheck_output": null,
+  "final_status": "complete",
+  "final_decision": "already_valid",
+  "repaired_any": false
+}

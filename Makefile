@@ -16,9 +16,13 @@ test-orchestrator:
 test-orchestrator-blocking:
 	./tests/test_run_constraint_loop_blocking.sh
 
+test-orchestrator-unknown:
+	./tests/test_run_constraint_loop_unknown.sh
+
 test:
 	$(MAKE) test-smoke
 	$(MAKE) test-contracts
 	$(MAKE) test-taxonomy
 	$(MAKE) test-orchestrator
 	$(MAKE) test-orchestrator-blocking
+	#$(MAKE) test-orchestrator-unknown
