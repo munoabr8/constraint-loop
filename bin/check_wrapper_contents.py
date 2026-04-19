@@ -13,17 +13,14 @@ def make_violation(
     code: FailureCode,
     entity: str,
     entity_id: str,
-    expected: str | None = None,
+    details: dict | None = None,
 ) -> dict:
     violation = {
         "violation_type": code.value,
         "entity": entity,
         "entity_id": entity_id,
+        "details": details or {},
     }
-
-    if expected is not None:
-        violation["expected"] = expected
-
     return violation
 
 
@@ -58,13 +55,20 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
 
     content = wrapper.read_text(encoding="utf-8", errors="ignore")
 
+    base_details = {
+        "path": str(wrapper),
+    }
+
     if not wrapper_references_cast(content, cast.name):
         violations.append(
             make_violation(
                 code=FailureCode.WRAPPER_MISSING_CAST_REF,
                 entity="Wrapper",
                 entity_id=wrapper.name,
-                expected=f"src='./{cast.name}'",
+                details={
+                    **base_details,
+                    "expected": f"src='./{cast.name}'",
+                },
             )
         )
 
@@ -74,6 +78,7 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
                 code=FailureCode.WRAPPER_MISSING_PLAYER,
                 entity="Wrapper",
                 entity_id=wrapper.name,
+                details=base_details,
             )
         )
 
@@ -83,6 +88,7 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
                 code=FailureCode.WRAPPER_MISSING_JS,
                 entity="Wrapper",
                 entity_id=wrapper.name,
+                details=base_details,
             )
         )
 
@@ -92,6 +98,7 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
                 code=FailureCode.WRAPPER_MISSING_CSS,
                 entity="Wrapper",
                 entity_id=wrapper.name,
+                details=base_details,
             )
         )
 
@@ -112,11 +119,14 @@ def main() -> int:
         print(json.dumps({
             "status": "fail",
             "violations": [
-                {
-                    "violation_type": FailureCode.NO_CAST_FILES_FOUND.value,
-                    "entity": "ArtifactsDirectory",
-                    "entity_id": str(art_dir),
-                }
+                make_violation(
+                    code=FailureCode.NO_CAST_FILES_FOUND,
+                    entity="ArtifactsDirectory",
+                    entity_id=str(art_dir),
+                    details={
+                        "path": str(art_dir),
+                    },
+                )
             ]
         }, indent=2))
         return 1

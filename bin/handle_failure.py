@@ -92,7 +92,7 @@ def main() -> int:
         result = subprocess.run(
             [
                 "python3",
-                "evidenceKit/evidence-kit/bin/gen-index.py",
+                "../evidenceKit/evidence-kit/bin/gen-index.py",
                 "--art-dir",
                 "evidenceKit/evidence-kit/artifacts",
             ],

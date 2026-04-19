@@ -1,0 +1,177 @@
+{
+  "started_at": "2026-04-19T00:56:33.938102+00:00",
+  "artifacts_dir": "/private/tmp/constraint-loop-recover",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"expected\": \"src='./run.cast'\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "expected": "src='./run.cast'"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {},\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {},\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {},\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {},\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {},
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {},
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {},
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {},
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 2,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"repair_attempted\",\n  \"reason\": \"Executed deterministic action regenerate_wrappers\",\n  \"action_result\": {\n    \"action\": \"regenerate_wrappers\",\n    \"returncode\": 2,\n    \"stdout\": \"\",\n    \"stderr\": \"/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abrahammunoz/constraint-loop/evidenceKit/evidence-kit/bin/gen-index.py': [Errno 2] No such file or directory\\n\"\n  }\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "regenerate_wrappers"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "repair_attempted",
+      "reason": "Executed deterministic action regenerate_wrappers",
+      "action_result": {
+        "action": "regenerate_wrappers",
+        "returncode": 2,
+        "stdout": "",
+        "stderr": "/opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/abrahammunoz/constraint-loop/evidenceKit/evidence-kit/bin/gen-index.py': [Errno 2] No such file or directory\n"
+      }
+    }
+  },
+  "repair_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"repaired_any\": false,\n  \"results\": [\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"Missing wrapper path in details.path\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"Missing wrapper path in details.path\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"Missing wrapper path in details.path\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"Missing wrapper path in details.path\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "repaired_any": false,
+      "results": [
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "Missing wrapper path in details.path"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": false,
+          "reason": "Missing wrapper path in details.path"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": false,
+          "reason": "Missing wrapper path in details.path"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": false,
+          "reason": "Missing wrapper path in details.path"
+        }
+      ]
+    }
+  },
+  "recheck_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"expected\": \"src='./run.cast'\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "expected": "src='./run.cast'"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html"
+        }
+      ]
+    }
+  },
+  "final_status": "complete",
+  "final_decision": "repair_failed",
+  "repaired_any": false
+}

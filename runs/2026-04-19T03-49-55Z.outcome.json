@@ -1,0 +1,96 @@
+{
+  "started_at": "2026-04-19T03:49:55.794251+00:00",
+  "artifacts_dir": "/private/tmp/constraint-loop-recover",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/private/tmp/constraint-loop-recover/run.cast.html\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/private/tmp/constraint-loop-recover/run.cast.html"
+          }
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/private/tmp/constraint-loop-recover/run.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/private/tmp/constraint-loop-recover/run.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": true,\n  \"final_decision\": \"repair_attempted\",\n  \"reason\": \"Executed deterministic action regenerate_wrappers\",\n  \"action_result\": {\n    \"action\": \"regenerate_wrappers\",\n    \"returncode\": 0,\n    \"stdout\": \"\",\n    \"stderr\": \"\"\n  }\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "regenerate_wrappers"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": true,
+      "final_decision": "repair_attempted",
+      "reason": "Executed deterministic action regenerate_wrappers",
+      "action_result": {
+        "action": "regenerate_wrappers",
+        "returncode": 0,
+        "stdout": "",
+        "stderr": ""
+      }
+    }
+  },
+  "repair_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"repaired_any\": true,\n  \"results\": [\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired /private/tmp/constraint-loop-recover/run.cast.html\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "repaired_any": true,
+      "results": [
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired /private/tmp/constraint-loop-recover/run.cast.html"
+        }
+      ]
+    }
+  },
+  "recheck_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"violations\": []\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "pass",
+      "violations": []
+    }
+  },
+  "final_status": "complete",
+  "final_decision": "recovered",
+  "repaired_any": true
+}
