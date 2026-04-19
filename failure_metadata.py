@@ -43,6 +43,12 @@ FAILURE_METADATA = {
         "known": True,
         "executor": "none",
     },
+     "WRAPPER_MISSING_HEAD_STRUCTURE": {
+        "classification": "known_nonblocking",
+        "action": "record_structure_warning",
+        "known": True,
+        "executor": "none",
+    },
     "WRAPPER_UNREADABLE": {
         "classification": "known_blocking",
         "action": "halt_unreadable_wrapper",

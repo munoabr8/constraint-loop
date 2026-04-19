@@ -51,6 +51,10 @@ def wrapper_has_local_or_cdn_css(content: str) -> bool:
     )
 
 
+def wrapper_has_head_structure(content: str) -> bool:
+    return "<head" in content and "</head>" in content
+
+
 def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
     violations: list[dict] = []
 
@@ -62,6 +66,9 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
     base_details = {
         "path": str(wrapper),
     }
+
+    has_js = wrapper_has_local_or_cdn_js(content)
+    has_css = wrapper_has_local_or_cdn_css(content)
 
     if not wrapper_references_cast(content, cast.name):
         violations.append(
@@ -100,7 +107,7 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
             )
         )
 
-    if not wrapper_has_local_or_cdn_js(content):
+    if not has_js:
         violations.append(
             make_violation(
                 code=FailureCode.WRAPPER_MISSING_JS,
@@ -110,10 +117,20 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
             )
         )
 
-    if not wrapper_has_local_or_cdn_css(content):
+    if not has_css:
         violations.append(
             make_violation(
                 code=FailureCode.WRAPPER_MISSING_CSS,
+                entity="Wrapper",
+                entity_id=wrapper.name,
+                details=base_details,
+            )
+        )
+
+    if (has_js or has_css) and not wrapper_has_head_structure(content):
+        violations.append(
+            make_violation(
+                code=FailureCode.WRAPPER_MISSING_HEAD_STRUCTURE,
                 entity="Wrapper",
                 entity_id=wrapper.name,
                 details=base_details,

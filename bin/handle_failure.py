@@ -14,6 +14,7 @@ def build_outcome(
     final_decision: str,
     reason: str,
     repair_actions: list[dict] | None = None,
+    nonblocking_failures: list[dict] | None = None,
     action_result: dict | None = None,
 ) -> dict:
     outcome = {
@@ -32,6 +33,12 @@ def build_outcome(
 
     if unknown_failures:
         outcome["unknown_failures"] = unknown_failures
+
+    if nonblocking_failures:
+        outcome["nonblocking_failures"] = nonblocking_failures
+        outcome["nonblocking_count"] = len(nonblocking_failures)
+    else:
+        outcome["nonblocking_count"] = 0
 
     if repair_actions:
         outcome["repair_actions"] = repair_actions
@@ -67,12 +74,19 @@ def main() -> int:
         if item.get("action") == "repair_wrapper"
     ]
 
+    nonblocking = [
+        item for item in classifications
+        if item.get("classification") not in {"known_blocking", "unknown"}
+        and item.get("action") != "repair_wrapper"
+    ]
+
     print(json.dumps({
         "status": "received",
         "actions": actions,
         "blocking_count": len(blocking),
         "unknown_count": len(unknowns),
         "repair_action_count": len(repair_actions),
+        "nonblocking_count": len(nonblocking),
     }, indent=2), file=sys.stderr)
 
     if blocking:
@@ -85,6 +99,7 @@ def main() -> int:
             final_decision="halt",
             reason="Known blocking failures present",
             repair_actions=repair_actions,
+            nonblocking_failures=nonblocking,
         )
         print(json.dumps(outcome, indent=2))
         return 1
@@ -99,6 +114,7 @@ def main() -> int:
             final_decision="escalate",
             reason="Unknown failures present",
             repair_actions=repair_actions,
+            nonblocking_failures=nonblocking,
         )
         print(json.dumps(outcome, indent=2))
         return 1
@@ -113,6 +129,7 @@ def main() -> int:
             final_decision="repair_required",
             reason="Metadata indicates repairer execution is required",
             repair_actions=repair_actions,
+            nonblocking_failures=nonblocking,
         )
         print(json.dumps(outcome, indent=2))
         return 0
@@ -123,9 +140,10 @@ def main() -> int:
         blocking_failures=blocking,
         unknown_failures=unknowns,
         repaired_any=False,
-        final_decision="no_action_taken",
-        reason="No actionable route selected by metadata",
+        final_decision="no_repair_path",
+        reason="No blocking, unknown, or repairable actions selected",
         repair_actions=repair_actions,
+        nonblocking_failures=nonblocking,
     )
     print(json.dumps(outcome, indent=2))
     return 0
