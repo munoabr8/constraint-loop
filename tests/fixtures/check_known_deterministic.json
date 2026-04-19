@@ -1,0 +1,13 @@
+{
+  "status": "fail",
+  "violations": [
+    {
+      "violation_type": "WRAPPER_MISSING_PLAYER",
+      "entity": "Wrapper",
+      "entity_id": "run.cast.html",
+      "details": {
+        "path": "/tmp/run.cast.html"
+      }
+    }
+  ]
+}

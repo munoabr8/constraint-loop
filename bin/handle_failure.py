@@ -4,15 +4,43 @@ import json
 import subprocess
 import sys
 
+
 def main() -> int:
     data = json.load(sys.stdin)
-    print(json.dumps(data, indent=2), file=sys.stderr)
-    actions = {item["action"] for item in data.get("classifications", [])}
+    classifications = data.get("classifications", [])
+
+    actions = {item["action"] for item in classifications}
+    blocking = [
+        item for item in classifications
+        if item.get("classification") == "known_blocking"
+    ]
+    unknowns = [
+        item for item in classifications
+        if item.get("classification") == "unknown"
+    ]
 
     print(json.dumps({
         "status": "received",
-        "actions": sorted(actions)
+        "actions": sorted(actions),
+        "blocking_count": len(blocking),
+        "unknown_count": len(unknowns),
     }, indent=2), file=sys.stderr)
+
+    if blocking:
+        print(json.dumps({
+            "status": "blocked",
+            "reason": "Known blocking failures present",
+            "blocking_failures": blocking,
+        }, indent=2))
+        return 1
+
+    if unknowns:
+        print(json.dumps({
+            "status": "escalate",
+            "reason": "Unknown failures present",
+            "unknown_failures": unknowns,
+        }, indent=2))
+        return 1
 
     if "regenerate_wrappers" in actions:
         result = subprocess.run(
@@ -40,6 +68,7 @@ def main() -> int:
         "status": "no_action_taken"
     }, indent=2))
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())

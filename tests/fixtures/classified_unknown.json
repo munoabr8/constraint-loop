@@ -1,0 +1,17 @@
+{
+  "status": "fail",
+  "classifications": [
+    {
+      "status": "fail",
+      "known": false,
+      "code": "UNKNOWN_FAILURE",
+      "entity": "Wrapper",
+      "entity_id": "run.cast.html",
+      "details": {
+        "path": "/tmp/constraint-loop-test/run.cast.html"
+      },
+      "classification": "unknown",
+      "action": "invoke_llm"
+    }
+  ]
+}

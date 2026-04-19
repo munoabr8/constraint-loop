@@ -1,0 +1,10 @@
+{
+  "status": "fail",
+  "violations": [
+    {
+      "violation_type": "SOMETHING_NEW_AND_UNMAPPED",
+      "entity": "Wrapper",
+      "entity_id": "mystery.cast.html"
+    }
+  ]
+}

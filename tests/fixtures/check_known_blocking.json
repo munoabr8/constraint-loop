@@ -1,0 +1,10 @@
+{
+  "status": "fail",
+  "violations": [
+    {
+      "violation_type": "NO_CAST_FILES_FOUND",
+      "entity": "ArtifactsDirectory",
+      "entity_id": "../evidenceKit/evidence-kit/artifacts"
+    }
+  ]
+}

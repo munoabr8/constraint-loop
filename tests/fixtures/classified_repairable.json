@@ -1,0 +1,17 @@
+{
+  "status": "fail",
+  "classifications": [
+    {
+      "status": "fail",
+      "known": true,
+      "code": "WRAPPER_MISSING_PLAYER",
+      "entity": "Wrapper",
+      "entity_id": "run.cast.html",
+      "details": {
+        "path": "/tmp/constraint-loop-test/run.cast.html"
+      },
+      "classification": "known_deterministic",
+      "action": "regenerate_wrappers"
+    }
+  ]
+}
