@@ -1,0 +1,67 @@
+{
+  "started_at": "2026-04-19T04:30:07.933959+00:00",
+  "artifacts_dir": "/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.DI0x2yLt",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.DI0x2yLt/run.cast.html\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.DI0x2yLt/run.cast.html"
+          }
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.DI0x2yLt/run.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"regenerate_wrappers\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/private/var/folders/1t/mczyq9fj2lb477zrv1fx44t00000gn/T/tmp.DI0x2yLt/run.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "regenerate_wrappers"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"no_action_taken\",\n  \"reason\": \"No actionable route selected by metadata\",\n  \"repair_action_count\": 0\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"regenerate_wrappers\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repair_action_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "regenerate_wrappers"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "no_action_taken",
+      "reason": "No actionable route selected by metadata",
+      "repair_action_count": 0
+    }
+  },
+  "repair_output": null,
+  "recheck_output": null,
+  "final_status": "complete",
+  "final_decision": "no_repair_path",
+  "repaired_any": false
+}

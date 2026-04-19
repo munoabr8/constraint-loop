@@ -13,6 +13,7 @@ def build_outcome(
     repaired_any: bool,
     final_decision: str,
     reason: str,
+    repair_actions: list[dict] | None = None,
     action_result: dict | None = None,
 ) -> dict:
     outcome = {
@@ -32,6 +33,12 @@ def build_outcome(
     if unknown_failures:
         outcome["unknown_failures"] = unknown_failures
 
+    if repair_actions:
+        outcome["repair_actions"] = repair_actions
+        outcome["repair_action_count"] = len(repair_actions)
+    else:
+        outcome["repair_action_count"] = 0
+
     if action_result is not None:
         outcome["action_result"] = action_result
 
@@ -43,19 +50,21 @@ def main() -> int:
     classifications = data.get("classifications", [])
     input_status = data.get("status", "unknown")
 
-    actions = sorted({item["action"] for item in classifications})
+    actions = sorted({item.get("action", "unknown_action") for item in classifications})
 
     blocking = [
         item for item in classifications
         if item.get("classification") == "known_blocking"
     ]
+
     unknowns = [
         item for item in classifications
         if item.get("classification") == "unknown"
     ]
-    deterministic = [
+
+    repair_actions = [
         item for item in classifications
-        if item.get("classification") == "known_deterministic"
+        if item.get("action") == "repair_wrapper"
     ]
 
     print(json.dumps({
@@ -63,7 +72,7 @@ def main() -> int:
         "actions": actions,
         "blocking_count": len(blocking),
         "unknown_count": len(unknowns),
-        "deterministic_count": len(deterministic),
+        "repair_action_count": len(repair_actions),
     }, indent=2), file=sys.stderr)
 
     if blocking:
@@ -75,6 +84,7 @@ def main() -> int:
             repaired_any=False,
             final_decision="halt",
             reason="Known blocking failures present",
+            repair_actions=repair_actions,
         )
         print(json.dumps(outcome, indent=2))
         return 1
@@ -88,11 +98,12 @@ def main() -> int:
             repaired_any=False,
             final_decision="escalate",
             reason="Unknown failures present",
+            repair_actions=repair_actions,
         )
         print(json.dumps(outcome, indent=2))
         return 1
 
-    if deterministic:
+    if repair_actions:
         outcome = build_outcome(
             input_status=input_status,
             actions=actions,
@@ -100,7 +111,8 @@ def main() -> int:
             unknown_failures=unknowns,
             repaired_any=False,
             final_decision="repair_required",
-            reason="Deterministic repair required",
+            reason="Metadata indicates repairer execution is required",
+            repair_actions=repair_actions,
         )
         print(json.dumps(outcome, indent=2))
         return 0
@@ -112,7 +124,8 @@ def main() -> int:
         unknown_failures=unknowns,
         repaired_any=False,
         final_decision="no_action_taken",
-        reason="No actionable deterministic route selected",
+        reason="No actionable route selected by metadata",
+        repair_actions=repair_actions,
     )
     print(json.dumps(outcome, indent=2))
     return 0
