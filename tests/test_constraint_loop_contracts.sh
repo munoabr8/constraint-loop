@@ -99,9 +99,10 @@ main() {
     rc=$?
     assert_exit_code 1 "$rc" "blocking path"
   fi
-  assert_json_contains '"status": "blocked"' "$blocking_out" "blocking path"
+  assert_json_contains '"status": "complete"' "$blocking_out" "blocking path"
+  assert_json_contains '"final_decision": "halt"' "$blocking_out" "blocking path"
   assert_json_contains '"code": "NO_CAST_FILES_FOUND"' "$blocking_out" "blocking path"
-  pass "blocking path exits 1 and reports blocked"
+  pass "blocking path exits 1 and reports halt"
 
   printf '== unknown path exits 1 ==\n'
   if run_pipeline_capture "tests/fixtures/check_unknown.json" "$unknown_out"; then
@@ -110,7 +111,8 @@ main() {
     rc=$?
     assert_exit_code 1 "$rc" "unknown path"
   fi
-  assert_json_contains '"status": "escalate"' "$unknown_out" "unknown path"
+  assert_json_contains '"status": "complete"' "$unknown_out" "unknown path"
+  assert_json_contains '"final_decision": "escalate"' "$unknown_out" "unknown path"
   assert_json_contains '"code": "UNKNOWN_FAILURE"' "$unknown_out" "unknown path"
   pass "unknown path exits 1 and reports escalate"
 
