@@ -3,7 +3,6 @@
 import argparse
 import json
 import subprocess
-import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -50,6 +49,17 @@ def write_run_artifact(payload: dict) -> Path:
     return out_path
 
 
+def extract_counts(check_parsed: dict | None, handler_parsed: dict | None) -> dict:
+    violations = check_parsed.get("violations", []) if isinstance(check_parsed, dict) else []
+    return {
+        "violation_count": len(violations),
+        "blocking_count": handler_parsed.get("blocking_count", 0) if isinstance(handler_parsed, dict) else 0,
+        "nonblocking_count": handler_parsed.get("nonblocking_count", 0) if isinstance(handler_parsed, dict) else 0,
+        "unknown_count": handler_parsed.get("unknown_count", 0) if isinstance(handler_parsed, dict) else 0,
+        "repair_action_count": handler_parsed.get("repair_action_count", 0) if isinstance(handler_parsed, dict) else 0,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("artifacts_dir")
@@ -68,6 +78,11 @@ def main() -> int:
         "final_status": None,
         "final_decision": None,
         "repaired_any": False,
+        "violation_count": 0,
+        "blocking_count": 0,
+        "nonblocking_count": 0,
+        "unknown_count": 0,
+        "repair_action_count": 0,
     }
 
     # --- 1. CHECK ---
@@ -87,8 +102,14 @@ def main() -> int:
         run_record["final_status"] = "error"
         run_record["final_decision"] = "checker_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
+        print(json.dumps({
+            "status": "error",
+            "final_decision": "checker_unparseable",
+            "run_artifact": str(artifact),
+        }, indent=2))
         return 1
+
+    run_record["violation_count"] = len(parsed.get("violations", []))
 
     if parsed.get("status") == "pass":
         run_record["final_status"] = "complete"
@@ -97,7 +118,12 @@ def main() -> int:
         print(json.dumps({
             "status": "complete",
             "final_decision": "already_valid",
-            "run_artifact": str(artifact)
+            "violation_count": run_record["violation_count"],
+            "blocking_count": run_record["blocking_count"],
+            "nonblocking_count": run_record["nonblocking_count"],
+            "unknown_count": run_record["unknown_count"],
+            "repair_action_count": run_record["repair_action_count"],
+            "run_artifact": str(artifact),
         }, indent=2))
         return 0
 
@@ -118,7 +144,11 @@ def main() -> int:
         run_record["final_status"] = "error"
         run_record["final_decision"] = "classifier_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
+        print(json.dumps({
+            "status": "error",
+            "final_decision": "classifier_unparseable",
+            "run_artifact": str(artifact),
+        }, indent=2))
         return 1
 
     # --- 3. HANDLE (DECISION ONLY) ---
@@ -138,8 +168,18 @@ def main() -> int:
         run_record["final_status"] = "error"
         run_record["final_decision"] = "handler_unparseable"
         artifact = write_run_artifact(run_record)
-        print(json.dumps({"status": "error", "run_artifact": str(artifact)}, indent=2))
+        print(json.dumps({
+            "status": "error",
+            "final_decision": "handler_unparseable",
+            "run_artifact": str(artifact),
+        }, indent=2))
         return 1
+
+    counts = extract_counts(
+        run_record["check_output"]["parsed"],
+        run_record["handler_output"]["parsed"],
+    )
+    run_record.update(counts)
 
     decision = parsed.get("final_decision")
     run_record["final_decision"] = decision
@@ -151,7 +191,12 @@ def main() -> int:
         print(json.dumps({
             "status": "complete",
             "final_decision": decision,
-            "run_artifact": str(artifact)
+            "violation_count": run_record["violation_count"],
+            "blocking_count": run_record["blocking_count"],
+            "nonblocking_count": run_record["nonblocking_count"],
+            "unknown_count": run_record["unknown_count"],
+            "repair_action_count": run_record["repair_action_count"],
+            "run_artifact": str(artifact),
         }, indent=2))
         return 1
 
@@ -190,6 +235,9 @@ def main() -> int:
             "parsed": parsed,
         }
 
+        if parsed is not None:
+            run_record["violation_count"] = len(parsed.get("violations", []))
+
         if parsed and parsed.get("status") == "pass":
             run_record["final_status"] = "complete"
             run_record["final_decision"] = "recovered"
@@ -198,7 +246,12 @@ def main() -> int:
                 "status": "complete",
                 "final_decision": "recovered",
                 "repaired_any": run_record["repaired_any"],
-                "run_artifact": str(artifact)
+                "violation_count": run_record["violation_count"],
+                "blocking_count": run_record["blocking_count"],
+                "nonblocking_count": run_record["nonblocking_count"],
+                "unknown_count": run_record["unknown_count"],
+                "repair_action_count": run_record["repair_action_count"],
+                "run_artifact": str(artifact),
             }, indent=2))
             return 0
 
@@ -209,7 +262,12 @@ def main() -> int:
             "status": "complete",
             "final_decision": "repair_failed",
             "repaired_any": run_record["repaired_any"],
-            "run_artifact": str(artifact)
+            "violation_count": run_record["violation_count"],
+            "blocking_count": run_record["blocking_count"],
+            "nonblocking_count": run_record["nonblocking_count"],
+            "unknown_count": run_record["unknown_count"],
+            "repair_action_count": run_record["repair_action_count"],
+            "run_artifact": str(artifact),
         }, indent=2))
         return 1
 
@@ -220,7 +278,13 @@ def main() -> int:
     print(json.dumps({
         "status": "complete",
         "final_decision": "no_repair_path",
-        "run_artifact": str(artifact)
+        "repaired_any": run_record["repaired_any"],
+        "violation_count": run_record["violation_count"],
+        "blocking_count": run_record["blocking_count"],
+        "nonblocking_count": run_record["nonblocking_count"],
+        "unknown_count": run_record["unknown_count"],
+        "repair_action_count": run_record["repair_action_count"],
+        "run_artifact": str(artifact),
     }, indent=2))
     return 0
 

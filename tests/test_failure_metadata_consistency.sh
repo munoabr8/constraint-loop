@@ -5,10 +5,20 @@ python3 - <<'PY'
 from failure_codes import FailureCode
 from failure_metadata import FAILURE_METADATA
 
-enum_codes = {code.value for code in FailureCode if code.value != "UNKNOWN_FAILURE"}
+# Codes intentionally left out of metadata so they become UNKNOWN at classification time.
+ALLOWED_UNMAPPED = {
+    "WRAPPER_MALFORMED_PLAYER_TAG",
+    "UNKNOWN_FAILURE",
+}
+
+enum_codes = {code.value for code in FailureCode}
 metadata_codes = set(FAILURE_METADATA.keys())
 
-missing_in_metadata = sorted(enum_codes - metadata_codes)
+missing_in_metadata = sorted(
+    code for code in (enum_codes - metadata_codes)
+    if code not in ALLOWED_UNMAPPED
+)
+
 extra_in_metadata = sorted(metadata_codes - enum_codes)
 
 if missing_in_metadata:

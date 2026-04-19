@@ -21,6 +21,21 @@ touch "$tmpdir/asciinema-player.min.js"
 
 output="$(python3 bin/run_constraint_loop.py "$tmpdir")"
 
+echo "$output" | grep -q '"violation_count": 1' || {
+  echo "[fail] expected violation_count 1"
+  exit 1
+}
+
+echo "$output" | grep -q '"nonblocking_count": 1' || {
+  echo "[fail] expected nonblocking_count 1"
+  exit 1
+}
+
+echo "$output" | grep -q '"blocking_count": 0' || {
+  echo "[fail] expected blocking_count 0"
+  exit 1
+}
+
 echo "$output"
 
 artifact_path="$(

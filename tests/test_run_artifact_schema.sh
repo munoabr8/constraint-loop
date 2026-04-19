@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+
+#./tests/test_run_artifact_schema.sh
 set -euo pipefail
 
 tmpdir="$(mktemp -d)"
