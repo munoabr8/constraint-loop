@@ -41,8 +41,8 @@ echo "$output" | grep -q '"violation_count": 0' || {
   exit 1
 }
 
-echo "$output" | grep -q '"repair_action_count": 1' || {
-  echo "[fail] expected repair_action_count 1"
+echo "$output" | grep -q '"repair_attempt_count": 1' || {
+  echo "[fail] expected repair_attempt_count 1"
   exit 1
 }
 

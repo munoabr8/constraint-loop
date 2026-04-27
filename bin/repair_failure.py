@@ -76,6 +76,32 @@ def repair_missing_js(wrapper: Path) -> bool:
     return True
 
 
+def repair_missing_head_structure(wrapper: Path) -> bool:
+    text = wrapper.read_text(encoding="utf-8", errors="ignore")
+
+    if "<head>" in text and "</head>" in text:
+        return False
+
+    body = text
+
+    if "<body>" not in body:
+        body = f"<body>\n{body}\n</body>"
+
+    updated = f"""<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  {CSS_TAG}
+  {JS_TAG}
+</head>
+{body}
+</html>
+"""
+
+    wrapper.write_text(updated, encoding="utf-8")
+    return True
+
+
 def repair_missing_css(wrapper: Path) -> bool:
     text = wrapper.read_text(encoding="utf-8", errors="ignore")
 
@@ -141,6 +167,16 @@ def repair_classification(item: dict) -> dict:
             result["reason"] = f"Repaired missing player in {wrapper}"
             return result
 
+        case FailureCode.WRAPPER_MISSING_HEAD_STRUCTURE:
+            changed = repair_missing_head_structure(wrapper)
+            if not changed:
+                result["reason"] = "No repair performed"
+                return result
+
+            result["repaired"] = True
+            result["reason"] = f"Inserted head structure in {wrapper}"
+            return result    
+
         case FailureCode.WRAPPER_MISSING_CAST_REF:
             expected = details.get("expected")
             if not expected:
@@ -194,13 +230,22 @@ def main() -> int:
         if outcome["repaired"]:
             repaired_any = True
 
+    status = data.get("status")
+
     print(json.dumps({
-        "status": data.get("status"),
+        "status": status,
         "repaired_any": repaired_any,
         "results": repair_results
     }, indent=2))
 
-    return 0 if repaired_any else 1
+    if status == "pass":
+        return 0
+
+    if repaired_any:
+        return 0
+
+    return 1
+
 
 
 if __name__ == "__main__":

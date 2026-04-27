@@ -1,0 +1,407 @@
+{
+  "started_at": "2026-04-19T22:21:36.324361+00:00",
+  "artifacts_dir": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"devcontainer_startup_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_vars_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_debug3.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_dryrun.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_graph.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"repo_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"smoke.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe_gen_new_manifest.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "devcontainer_startup_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_vars_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_debug3.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_dryrun.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_graph.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "repo_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "smoke.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe_gen_new_manifest.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html"
+          }
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"devcontainer_startup_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_vars_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_debug3.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_dryrun.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_graph.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"repo_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"smoke.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe_gen_new_manifest.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "devcontainer_startup_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_vars_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_debug3.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_dryrun.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_graph.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "repo_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "smoke.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe_gen_new_manifest.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"record_structure_warning\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"no_repair_path\",\n  \"reason\": \"No blocking, unknown, or repairable actions selected\",\n  \"nonblocking_failures\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"devcontainer_startup_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"env_vars_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_debug3.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_dryrun.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"make_graph.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"repo_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"run.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"smoke.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_HEAD_STRUCTURE\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"vendor_probe_gen_new_manifest.cast.html\",\n      \"details\": {\n        \"path\": \"/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html\"\n      },\n      \"classification\": \"known_nonblocking\",\n      \"action\": \"record_structure_warning\"\n    }\n  ],\n  \"nonblocking_count\": 11,\n  \"repair_action_count\": 0\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"record_structure_warning\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repair_action_count\": 0,\n  \"nonblocking_count\": 11\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "record_structure_warning"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "no_repair_path",
+      "reason": "No blocking, unknown, or repairable actions selected",
+      "nonblocking_failures": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "devcontainer_startup_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/devcontainer_startup_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "env_vars_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/env_vars_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_debug3.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_debug3.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_dryrun.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_dryrun.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "make_graph.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/make_graph.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "repo_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/repo_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "run.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/run.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "smoke.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/smoke.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_HEAD_STRUCTURE",
+          "entity": "Wrapper",
+          "entity_id": "vendor_probe_gen_new_manifest.cast.html",
+          "details": {
+            "path": "/Users/abrahammunoz/evidenceKit/evidence-kit/artifacts/vendor_probe_gen_new_manifest.cast.html"
+          },
+          "classification": "known_nonblocking",
+          "action": "record_structure_warning"
+        }
+      ],
+      "nonblocking_count": 11,
+      "repair_action_count": 0
+    }
+  },
+  "repair_output": null,
+  "recheck_output": null,
+  "final_status": "complete",
+  "final_decision": "no_repair_path",
+  "repaired_any": false,
+  "violation_count": 11,
+  "blocking_count": 0,
+  "nonblocking_count": 11,
+  "unknown_count": 0,
+  "repair_action_count": 0
+}
