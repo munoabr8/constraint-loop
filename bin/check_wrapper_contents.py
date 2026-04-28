@@ -66,7 +66,7 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
                 entity_id=cast.name,
                 details={"path": str(wrapper)},
             )
-        )c
+        )
         return violations
 
 
