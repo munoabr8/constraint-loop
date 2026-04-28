@@ -1,0 +1,90 @@
+{
+  "started_at": "2026-04-28T14:46:00.860981+00:00",
+  "artifacts_dir": "/tmp/tmp.xsMwlOWFVv",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"NO_CAST_FILES_FOUND\",\n      \"entity\": \"ArtifactsDirectory\",\n      \"entity_id\": \"/tmp/tmp.xsMwlOWFVv\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.xsMwlOWFVv\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "NO_CAST_FILES_FOUND",
+          "entity": "ArtifactsDirectory",
+          "entity_id": "/tmp/tmp.xsMwlOWFVv",
+          "details": {
+            "path": "/tmp/tmp.xsMwlOWFVv"
+          }
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"NO_CAST_FILES_FOUND\",\n      \"entity\": \"ArtifactsDirectory\",\n      \"entity_id\": \"/tmp/tmp.xsMwlOWFVv\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.xsMwlOWFVv\"\n      },\n      \"classification\": \"known_blocking\",\n      \"action\": \"halt_missing_inputs\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "NO_CAST_FILES_FOUND",
+          "entity": "ArtifactsDirectory",
+          "entity_id": "/tmp/tmp.xsMwlOWFVv",
+          "details": {
+            "path": "/tmp/tmp.xsMwlOWFVv"
+          },
+          "classification": "known_blocking",
+          "action": "halt_missing_inputs"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"halt_missing_inputs\"\n  ],\n  \"blocking_count\": 1,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"halt\",\n  \"reason\": \"Known blocking failures present\",\n  \"blocking_failures\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"NO_CAST_FILES_FOUND\",\n      \"entity\": \"ArtifactsDirectory\",\n      \"entity_id\": \"/tmp/tmp.xsMwlOWFVv\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.xsMwlOWFVv\"\n      },\n      \"classification\": \"known_blocking\",\n      \"action\": \"halt_missing_inputs\"\n    }\n  ],\n  \"nonblocking_count\": 0,\n  \"repair_action_count\": 0\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"halt_missing_inputs\"\n  ],\n  \"blocking_count\": 1,\n  \"unknown_count\": 0,\n  \"repair_action_count\": 0,\n  \"nonblocking_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "halt_missing_inputs"
+      ],
+      "blocking_count": 1,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "halt",
+      "reason": "Known blocking failures present",
+      "blocking_failures": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "NO_CAST_FILES_FOUND",
+          "entity": "ArtifactsDirectory",
+          "entity_id": "/tmp/tmp.xsMwlOWFVv",
+          "details": {
+            "path": "/tmp/tmp.xsMwlOWFVv"
+          },
+          "classification": "known_blocking",
+          "action": "halt_missing_inputs"
+        }
+      ],
+      "nonblocking_count": 0,
+      "repair_action_count": 0
+    }
+  },
+  "repair_output": null,
+  "recheck_output": null,
+  "reclassification_output": null,
+  "rehandler_output": null,
+  "final_status": "complete",
+  "final_decision": "halt",
+  "repaired_any": false,
+  "violation_count": 1,
+  "blocking_count": 1,
+  "nonblocking_count": 0,
+  "unknown_count": 0,
+  "repair_action_count": 0,
+  "repair_attempt_count": 0
+}

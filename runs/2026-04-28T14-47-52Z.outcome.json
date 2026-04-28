@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-04-28T14:47:52.133506+00:00",
+  "artifacts_dir": "/tmp/tmp.W7ABGnUKfA",
+  "check_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"pass\",\n  \"violations\": []\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "pass",
+      "violations": []
+    }
+  },
+  "classification_output": null,
+  "handler_output": null,
+  "repair_output": null,
+  "recheck_output": null,
+  "reclassification_output": null,
+  "rehandler_output": null,
+  "final_status": "complete",
+  "final_decision": "already_valid",
+  "repaired_any": false,
+  "violation_count": 0,
+  "blocking_count": 0,
+  "nonblocking_count": 0,
+  "unknown_count": 0,
+  "repair_action_count": 0,
+  "repair_attempt_count": 0
+}
