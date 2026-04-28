@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
  #test_run_constraint_loop_recovered.sh
 
 set -euo pipefail
