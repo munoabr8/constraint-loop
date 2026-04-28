@@ -49,14 +49,17 @@ def write_run_artifact(payload: dict) -> Path:
     return out_path
 
 
-def extract_counts(check_parsed: dict | None, handler_parsed: dict | None) -> dict:
-    violations = check_parsed.get("violations", []) if isinstance(check_parsed, dict) else []
+def extract_counts(check_parsed: dict, handler_parsed: dict) -> dict:
+    if not isinstance(check_parsed, dict):
+        raise ValueError(f"extract_counts: check_parsed must be a dict, got {type(check_parsed)!r}")
+    if not isinstance(handler_parsed, dict):
+        raise ValueError(f"extract_counts: handler_parsed must be a dict, got {type(handler_parsed)!r}")
     return {
-        "violation_count": len(violations),
-        "blocking_count": handler_parsed.get("blocking_count", 0) if isinstance(handler_parsed, dict) else 0,
-        "nonblocking_count": handler_parsed.get("nonblocking_count", 0) if isinstance(handler_parsed, dict) else 0,
-        "unknown_count": handler_parsed.get("unknown_count", 0) if isinstance(handler_parsed, dict) else 0,
-        "repair_action_count": handler_parsed.get("repair_action_count", 0) if isinstance(handler_parsed, dict) else 0,
+        "violation_count": len(check_parsed.get("violations", [])),
+        "blocking_count": handler_parsed.get("blocking_count", 0),
+        "nonblocking_count": handler_parsed.get("nonblocking_count", 0),
+        "unknown_count": handler_parsed.get("unknown_count", 0),
+        "repair_action_count": handler_parsed.get("repair_action_count", 0),
     }
 
 

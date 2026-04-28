@@ -61,4 +61,11 @@ FAILURE_METADATA = {
         "known": True,
         "executor": "none",
     },
+
+    "WRAPPER_MALFORMED_PLAYER_TAG": {
+    "classification": "known_deterministic",
+    "action": "repair_wrapper",
+    "known": True,
+    "executor": "repairer",
+    },
 }
