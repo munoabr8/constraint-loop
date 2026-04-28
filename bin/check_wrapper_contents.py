@@ -66,10 +66,10 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
                 entity_id=cast.name,
                 details={"path": str(wrapper)},
             )
-        )
+        )c
         return violations
 
-        
+
     content = wrapper.read_text(encoding="utf-8", errors="ignore")
 
     base_details = {
