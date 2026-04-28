@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-04-28T15:17:48.834403+00:00",
+  "artifacts_dir": "/tmp/tmp.Y9qUdrrvSg",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "  File \"/home/runner/work/constraint-loop/constraint-loop/bin/check_wrapper_contents.py\", line 69\n    )c\n     ^\nSyntaxError: invalid syntax\n",
+    "parsed": null
+  },
+  "classification_output": null,
+  "handler_output": null,
+  "repair_output": null,
+  "recheck_output": null,
+  "reclassification_output": null,
+  "rehandler_output": null,
+  "final_status": "error",
+  "final_decision": "checker_unparseable",
+  "repaired_any": false,
+  "violation_count": 0,
+  "blocking_count": 0,
+  "nonblocking_count": 0,
+  "unknown_count": 0,
+  "repair_action_count": 0,
+  "repair_attempt_count": 0
+}
