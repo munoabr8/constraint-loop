@@ -31,6 +31,9 @@ test-artifact-schema:
 test-orchestrator-unknown2:
 	./tests/test_run_constraint_loop_unknown2.sh
 
+test-stress:
+	./tests/test_stress.sh
+
 test:
 	$(MAKE) test-smoke
 	$(MAKE) test-contracts
@@ -40,6 +43,7 @@ test:
 	$(MAKE) test-orchestrator-recovered
 	$(MAKE) test-orchestrator-blocking
 	$(MAKE) test-artifact-schema
+	$(MAKE) test-stress
 	#$(MAKE) test-orchestrator-unknown2
 	#$(MAKE) test-artifact-schema-blocking
 	#$(MAKE) test-checker-head

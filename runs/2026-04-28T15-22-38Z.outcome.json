@@ -1,0 +1,2462 @@
+{
+  "started_at": "2026-04-28T15:22:38.229137+00:00",
+  "artifacts_dir": "/tmp/tmp.cBzzn65hbt",
+  "check_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_001.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_001.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_002.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_002.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_003.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_003.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_005.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_005.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_006.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_006.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_007.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_007.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_009.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_009.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_010.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_010.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_011.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_011.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_013.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_013.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_014.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_014.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_015.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_015.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_017.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_017.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_018.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_018.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_019.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_019.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_021.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_021.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_022.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_022.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_023.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_023.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_025.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_025.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_026.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_026.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_027.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_027.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_029.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_029.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_030.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_030.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_031.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_031.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_033.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_033.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_034.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_034.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_035.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_035.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_037.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_037.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_038.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_038.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_039.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_039.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_041.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_041.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_042.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_042.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_043.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_043.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_045.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_045.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_046.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_046.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_047.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_047.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_049.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_049.cast.html\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_050.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_050.cast.html\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_001.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_001.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_002.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_002.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_003.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_003.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_005.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_005.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_006.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_006.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_007.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_007.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_009.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_009.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_010.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_010.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_011.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_011.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_013.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_013.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_014.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_014.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_015.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_015.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_017.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_017.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_018.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_018.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_019.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_019.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_021.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_021.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_022.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_022.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_023.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_023.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_025.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_025.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_026.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_026.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_027.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_027.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_029.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_029.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_030.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_030.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_031.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_031.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_033.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_033.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_034.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_034.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_035.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_035.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_037.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_037.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_038.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_038.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_039.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_039.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_041.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_041.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_042.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_042.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_043.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_043.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_045.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_045.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_046.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_046.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_047.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_047.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_049.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_049.cast.html"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_050.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_050.cast.html"
+          }
+        }
+      ]
+    }
+  },
+  "classification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_001.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_001.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_002.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_002.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_003.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_003.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_005.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_005.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_006.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_006.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_007.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_007.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_009.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_009.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_010.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_010.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_011.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_011.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_013.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_013.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_014.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_014.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_015.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_015.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_017.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_017.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_018.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_018.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_019.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_019.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_021.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_021.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_022.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_022.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_023.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_023.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_025.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_025.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_026.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_026.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_027.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_027.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_029.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_029.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_030.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_030.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_031.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_031.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_033.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_033.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_034.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_034.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_035.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_035.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_037.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_037.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_038.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_038.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_039.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_039.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_041.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_041.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_042.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_042.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_043.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_043.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_045.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_045.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_046.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_046.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_047.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_047.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_049.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_049.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_050.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_050.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_001.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_001.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_002.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_002.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_003.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_003.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_005.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_005.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_006.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_006.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_007.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_007.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_009.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_009.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_010.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_010.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_011.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_011.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_013.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_013.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_014.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_014.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_015.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_015.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_017.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_017.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_018.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_018.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_019.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_019.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_021.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_021.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_022.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_022.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_023.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_023.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_025.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_025.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_026.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_026.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_027.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_027.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_029.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_029.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_030.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_030.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_031.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_031.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_033.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_033.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_034.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_034.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_035.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_035.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_037.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_037.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_038.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_038.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_039.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_039.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_041.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_041.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_042.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_042.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_043.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_043.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_045.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_045.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_046.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_046.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_047.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_047.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_049.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_049.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_050.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_050.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        }
+      ]
+    }
+  },
+  "handler_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"repair_wrapper\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"repair_required\",\n  \"reason\": \"Metadata indicates repairer execution is required\",\n  \"nonblocking_count\": 0,\n  \"repair_actions\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_001.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_001.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_002.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_002.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_003.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_003.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_005.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_005.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_006.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_006.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_007.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_007.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_009.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_009.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_010.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_010.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_011.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_011.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_013.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_013.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_014.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_014.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_015.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_015.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_017.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_017.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_018.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_018.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_019.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_019.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_021.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_021.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_022.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_022.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_023.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_023.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_025.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_025.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_026.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_026.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_027.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_027.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_029.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_029.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_030.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_030.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_031.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_031.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_033.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_033.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_034.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_034.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_035.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_035.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_037.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_037.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_038.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_038.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_039.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_039.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_041.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_041.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_042.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_042.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_043.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_043.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_045.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_045.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_046.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_046.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_047.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_047.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_049.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_049.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_050.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_050.cast.html\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    }\n  ],\n  \"repair_action_count\": 50\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"repair_wrapper\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repair_action_count\": 50,\n  \"nonblocking_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "repair_wrapper"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "repair_required",
+      "reason": "Metadata indicates repairer execution is required",
+      "nonblocking_count": 0,
+      "repair_actions": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_001.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_001.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_002.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_002.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_003.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_003.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_005.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_005.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_006.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_006.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_007.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_007.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_009.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_009.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_010.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_010.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_011.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_011.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_013.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_013.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_014.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_014.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_015.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_015.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_017.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_017.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_018.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_018.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_019.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_019.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_021.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_021.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_022.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_022.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_023.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_023.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_025.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_025.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_026.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_026.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_027.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_027.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_029.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_029.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_030.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_030.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_031.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_031.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_033.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_033.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_034.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_034.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_035.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_035.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_037.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_037.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_038.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_038.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_039.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_039.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_041.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_041.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_042.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_042.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_043.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_043.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_045.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_045.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_046.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_046.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CSS",
+          "entity": "Wrapper",
+          "entity_id": "recording_047.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_047.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_PLAYER",
+          "entity": "Wrapper",
+          "entity_id": "recording_049.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_049.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_JS",
+          "entity": "Wrapper",
+          "entity_id": "recording_050.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_050.cast.html"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        }
+      ],
+      "repair_action_count": 50
+    }
+  },
+  "repair_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"repaired_any\": true,\n  \"results\": [\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_001.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_002.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_003.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_005.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_006.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_007.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_009.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_010.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_011.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_013.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_014.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_015.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_017.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_018.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_019.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_021.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_022.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_023.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_025.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_026.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_027.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_029.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_030.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_031.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_033.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_034.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_035.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_037.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_038.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_039.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_041.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_042.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_043.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_045.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_046.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CSS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_047.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"known\": true,\n      \"repaired\": false,\n      \"reason\": \"No repair performed\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_PLAYER\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_049.cast.html\"\n    },\n    {\n      \"code\": \"WRAPPER_MISSING_JS\",\n      \"known\": true,\n      \"repaired\": true,\n      \"reason\": \"Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_050.cast.html\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "repaired_any": true,
+      "results": [
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_001.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_002.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_003.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_005.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_006.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_007.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_009.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_010.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_011.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_013.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_014.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_015.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_017.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_018.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_019.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_021.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_022.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_023.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_025.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_026.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_027.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_029.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_030.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_031.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_033.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_034.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_035.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_037.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_038.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_039.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_041.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_042.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_043.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_045.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_046.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CSS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted CSS tag in /tmp/tmp.cBzzn65hbt/recording_047.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "known": true,
+          "repaired": false,
+          "reason": "No repair performed"
+        },
+        {
+          "code": "WRAPPER_MISSING_PLAYER",
+          "known": true,
+          "repaired": true,
+          "reason": "Repaired missing player in /tmp/tmp.cBzzn65hbt/recording_049.cast.html"
+        },
+        {
+          "code": "WRAPPER_MISSING_JS",
+          "known": true,
+          "repaired": true,
+          "reason": "Inserted JS tag in /tmp/tmp.cBzzn65hbt/recording_050.cast.html"
+        }
+      ]
+    }
+  },
+  "recheck_output": {
+    "returncode": 1,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"violations\": [\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      }\n    },\n    {\n      \"violation_type\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      }\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "violations": [
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          }
+        },
+        {
+          "violation_type": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          }
+        }
+      ]
+    }
+  },
+  "reclassification_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"fail\",\n  \"classifications\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    }\n  ]\n}\n",
+    "stderr": "",
+    "parsed": {
+      "status": "fail",
+      "classifications": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        }
+      ]
+    }
+  },
+  "rehandler_output": {
+    "returncode": 0,
+    "stdout": "{\n  \"status\": \"complete\",\n  \"input_status\": \"fail\",\n  \"actions\": [\n    \"repair_wrapper\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repaired_any\": false,\n  \"final_decision\": \"repair_required\",\n  \"reason\": \"Metadata indicates repairer execution is required\",\n  \"nonblocking_count\": 0,\n  \"repair_actions\": [\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_004.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_004.cast.html\",\n        \"expected\": \"src='./recording_004.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_008.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_008.cast.html\",\n        \"expected\": \"src='./recording_008.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_012.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_012.cast.html\",\n        \"expected\": \"src='./recording_012.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_016.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_016.cast.html\",\n        \"expected\": \"src='./recording_016.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_020.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_020.cast.html\",\n        \"expected\": \"src='./recording_020.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_024.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_024.cast.html\",\n        \"expected\": \"src='./recording_024.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_028.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_028.cast.html\",\n        \"expected\": \"src='./recording_028.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_032.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_032.cast.html\",\n        \"expected\": \"src='./recording_032.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_036.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_036.cast.html\",\n        \"expected\": \"src='./recording_036.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_040.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_040.cast.html\",\n        \"expected\": \"src='./recording_040.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_044.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_044.cast.html\",\n        \"expected\": \"src='./recording_044.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    },\n    {\n      \"status\": \"fail\",\n      \"known\": true,\n      \"code\": \"WRAPPER_MISSING_CAST_REF\",\n      \"entity\": \"Wrapper\",\n      \"entity_id\": \"recording_048.cast.html\",\n      \"details\": {\n        \"path\": \"/tmp/tmp.cBzzn65hbt/recording_048.cast.html\",\n        \"expected\": \"src='./recording_048.cast'\"\n      },\n      \"classification\": \"known_deterministic\",\n      \"action\": \"repair_wrapper\"\n    }\n  ],\n  \"repair_action_count\": 12\n}\n",
+    "stderr": "{\n  \"status\": \"received\",\n  \"actions\": [\n    \"repair_wrapper\"\n  ],\n  \"blocking_count\": 0,\n  \"unknown_count\": 0,\n  \"repair_action_count\": 12,\n  \"nonblocking_count\": 0\n}\n",
+    "parsed": {
+      "status": "complete",
+      "input_status": "fail",
+      "actions": [
+        "repair_wrapper"
+      ],
+      "blocking_count": 0,
+      "unknown_count": 0,
+      "repaired_any": false,
+      "final_decision": "repair_required",
+      "reason": "Metadata indicates repairer execution is required",
+      "nonblocking_count": 0,
+      "repair_actions": [
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_004.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_004.cast.html",
+            "expected": "src='./recording_004.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_008.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_008.cast.html",
+            "expected": "src='./recording_008.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_012.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_012.cast.html",
+            "expected": "src='./recording_012.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_016.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_016.cast.html",
+            "expected": "src='./recording_016.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_020.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_020.cast.html",
+            "expected": "src='./recording_020.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_024.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_024.cast.html",
+            "expected": "src='./recording_024.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_028.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_028.cast.html",
+            "expected": "src='./recording_028.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_032.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_032.cast.html",
+            "expected": "src='./recording_032.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_036.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_036.cast.html",
+            "expected": "src='./recording_036.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_040.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_040.cast.html",
+            "expected": "src='./recording_040.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_044.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_044.cast.html",
+            "expected": "src='./recording_044.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        },
+        {
+          "status": "fail",
+          "known": true,
+          "code": "WRAPPER_MISSING_CAST_REF",
+          "entity": "Wrapper",
+          "entity_id": "recording_048.cast.html",
+          "details": {
+            "path": "/tmp/tmp.cBzzn65hbt/recording_048.cast.html",
+            "expected": "src='./recording_048.cast'"
+          },
+          "classification": "known_deterministic",
+          "action": "repair_wrapper"
+        }
+      ],
+      "repair_action_count": 12
+    }
+  },
+  "final_status": "complete",
+  "final_decision": "repair_failed",
+  "repaired_any": true,
+  "violation_count": 12,
+  "blocking_count": 0,
+  "nonblocking_count": 0,
+  "unknown_count": 0,
+  "repair_action_count": 12,
+  "repair_attempt_count": 1
+}
