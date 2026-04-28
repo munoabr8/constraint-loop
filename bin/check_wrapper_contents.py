@@ -59,8 +59,17 @@ def inspect_wrapper(cast: Path, wrapper: Path) -> list[dict]:
     violations: list[dict] = []
 
     if not wrapper.exists():
-        return violations  # existence handled elsewhere
+        violations.append(
+            make_violation(
+                code=FailureCode.CAST_MISSING_WRAPPER,
+                entity="Cast",
+                entity_id=cast.name,
+                details={"path": str(wrapper)},
+            )
+        )
+        return violations
 
+        
     content = wrapper.read_text(encoding="utf-8", errors="ignore")
 
     base_details = {
